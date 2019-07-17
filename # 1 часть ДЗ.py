@@ -10,6 +10,8 @@ while x < 100:
         print('FizzBuzz')
     else:
         print(x)
+
+
 print("2часть ДЗ")
 dict={b:b**3 for b in range(50)}
 print("Cловарь старый вариант\n", dict, "\n")
@@ -20,11 +22,12 @@ for i in dict.keys():
 dict=dict2
 print("Новый словарь", dict2)
 
+
 print("3 часть ДЗ")
 m=[1,2,1,2,3,4,5]
-b=[]
+l=[]
 for i in m:
-    if i not in b:
-        b.append(i)
-print(b)
+    if i not in l:
+        l.append(i)
+print(l)
 
